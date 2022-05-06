@@ -1,0 +1,262 @@
+:root {
+  --primary-text-color: #212121;
+  --accent-color: #2196f3;
+  --hero-footer-bgcolor: #2f303a;
+  --white-color: #ffffff;
+  --secondary-text-color: #757575;
+  --secondary-bgcolor: #f5f4fa;
+  --secondary-button-color: #f5f4fa;
+}
+
+/* цвет основного текста #212121 */
+
+/* вторичный цвет текста  #757575 */
+
+/* белый цвет  #FFFFFF */
+
+/* акцент #2196F3 */
+
+/* вторичный цвет фона #F5F4FA */
+
+/* цвет герой, футер  #2F303A */
+
+body {
+  color: var(--primary-text-color);
+  background-color: #fff;
+  font-family: Roboto, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.logo {
+  color: var(--primary-text-color);
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.accent-logo {
+  color: var(--accent-color);
+}
+
+/* Nav */
+.nav .link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.nav .link:hover,
+.nav .link:focus {
+  color: var(--accent-color);
+}
+
+.nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Contacts */
+.contact {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color);
+}
+
+/* Герой */
+.hero {
+  background-color: var(--hero-footer-bgcolor);
+}
+
+.hero-title {
+  color: var(--white-color);
+  background-color: var(--hero-footer-bgcolor);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.button {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--white-color);
+  background-color: #188ce8;
+}
+
+
+.second-button:hover,
+.second-button:focus {
+  color: var(--white-color);
+  background-color: #188ce8;
+}
+
+
+.section {
+  background-color: var(--white-color);
+  color: var(--primary-text-color);
+}
+
+.second-button {
+  background-color: var(--secondary-button-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+}
+
+/* Особенности  */
+.section-title {
+  color: var(--primary-text-color);
+  background-color: var(--white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.section-text {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* Section work */
+.work {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+/* Section team */
+.section-title-team {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+.team {
+  background-color: var(--secondary-bgcolor);
+}
+
+.section-name {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.position {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+
+/* навигация по сайту */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.works-main-section {
+  background-color: var(--white-color);
+}
+
+.description {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.text {
+  color: var(--secondary-text-color);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--hero-footer-bgcolor);
+}
+
+.accent-logo-footer {
+  color: var(--white-color);
+}
+
+.street {
+  color: var(--white-color);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+
+.mail,
+.tel {
+  color: var(--secondary-text-color);
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+
+.mail:hover,
+.tel:hover {
+  color: var(--accent-color);
+}
+
+.mail:focus,
+.tel:focus {
+  color: var(--accent-color);
+}
