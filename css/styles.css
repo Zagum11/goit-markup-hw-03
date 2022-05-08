@@ -40,6 +40,7 @@ button {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
+  outline: 2px solid tomato;
 }
 
 /* Logo */
@@ -56,6 +57,12 @@ button {
 
 .accent-logo {
   color: var(--accent-color);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 
@@ -107,8 +114,9 @@ button {
   display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
-  margin-right: 50px;
   margin-left: auto;
+  
+
 }
 
 .contact {
@@ -130,6 +138,9 @@ button {
 .hero {
   background-color: var(--hero-footer-bgcolor);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
 }
 
 .hero-title {
@@ -141,10 +152,10 @@ button {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  text-align: center;
 }
 
 .button {
-  text-align: center;
   background-color: var(--accent-color);
   color: var(--white-color);
   font-weight: 700;
@@ -152,9 +163,9 @@ button {
   line-height: 1.87;
   letter-spacing: 0.06em;
   border-radius: 4px;
-  display: flex;
   align-items: center;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  text-align: center;
 }
 
 .button:hover,
@@ -183,7 +194,6 @@ button {
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
-  text-align: center;
   border-radius: 4px;
 }
 
@@ -200,7 +210,11 @@ button {
   margin-bottom: 0;
 }
 
-.section-title {
+.section.no-padding {
+  padding-bottom: 0;
+}
+
+.title-qualities {
   margin-top: 0;
   margin-bottom: 10px;
   color: var(--primary-text-color);
@@ -212,7 +226,7 @@ button {
   text-transform: uppercase;
 }
 
-.section-text {
+.text-qualities {
   color: var(--secondary-text-color);
   font-size: 14px;
   line-height: 1.71;
@@ -220,12 +234,7 @@ button {
   margin-top: 10px;
 }
 
-/* Section work */
-.section-work {
-  padding-bottom: 94px;
-  margin-bottom: 0;
-}
-
+/* Work */
 .work {
   color: var(--primary-text-color);
   font-weight: 700;
@@ -237,13 +246,12 @@ button {
 }
 
 /* Section team */
-.section-team {
+.team {
   background-color: var(--secondary-bgcolor);
-  padding-bottom: 94px;
   margin-bottom: 0;
 }
 
-.section-title-team {
+.title-team {
   margin-top: 0;
   color: var(--primary-text-color);
   font-weight: 700;
@@ -252,7 +260,7 @@ button {
   letter-spacing: 0.03em;
 }
 
-.section-name {
+.name {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -306,6 +314,12 @@ button {
 /* Footer */
 .footer {
   background-color: var(--hero-footer-bgcolor);
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.adress {
+  margin-bottom: 0;
 }
 
 .accent-logo-footer {
