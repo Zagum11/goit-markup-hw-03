@@ -260,12 +260,18 @@ button {
   display: flex;
   padding: 0;
   margin: 0;
+  
 }
 
-.item-qualities  {
+.item-qualities {
   margin-right: 30px;
   width: 270px;
 }
+
+.item-qualities:last-child {
+  margin-right: 0;
+}
+
 
 .section.no-padding {
   padding-bottom: 0;
