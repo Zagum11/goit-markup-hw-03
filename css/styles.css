@@ -36,11 +36,11 @@ button {
   border-style: none;
 }
 
+/* container */
 .container {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
-  outline: 2px solid tomato;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -49,7 +49,6 @@ button {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
-  outline: 2px solid tomato;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -58,11 +57,11 @@ button {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
-  outline: 2px solid tomato;
   padding-left: 15px;
   padding-right: 15px;
 }
 
+/* header */
 .header {
   border: 1px solid #ececec;
 }
@@ -209,7 +208,7 @@ button {
 }
 
 .current-button {
-  margin-right: 30px;
+  margin-left: 8px;
   width: 73px;
   height: 38px;
   left: 495px;
@@ -227,7 +226,7 @@ button {
 }
 
 .second-button {
-  margin-right: 30px;
+  margin-left: 8px;
   width: 128px;
   height: 38px;
   left: 576px;
@@ -398,6 +397,9 @@ button {
   text-align: center;
   justify-content: center;
   padding: 0;
+  margin-top: 0;
+  margin-bottom: 34px;
+  
 }
 
 .description {
@@ -406,6 +408,9 @@ button {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-left: 24px;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 
 .text {
@@ -413,13 +418,17 @@ button {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+  margin-left: 24px;
+  margin-bottom: 20px;
+  margin-top: 4px;
 }
 
 .card-set {
   padding: 0;
   margin: 0;
+  margin-right: -30px;
+  margin-bottom: -30px;
   list-style: none;
-
   display: flex;
   flex-wrap: wrap;
 }
@@ -427,23 +436,13 @@ button {
 .card-set.item {
   margin-right: 30px;
   margin-bottom: 30px;
+  flex-basis: calc(100% / 3 - 30px);
   width: 370px;
   height: 404px;
   left: 215px;
   top: 262px;
-
   background: #ffffff;
   border: 1px solid #eeeeee;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
 }
 
 img {
