@@ -461,14 +461,14 @@ img {
   padding-top: 25px;
   padding-bottom: 25px;
   margin: 0;
-}
-
-.address {
   margin-bottom: 0;
 }
 
+
+
 .address-list {
   padding-left: 0;
+  margin-bottom: 0;
 }
 
 .accent-logo-footer {
