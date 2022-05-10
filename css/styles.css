@@ -227,6 +227,7 @@ button {
 
 .section-work {
   padding-top: 0;
+  background-color: var(--white-color);
 }
 
 /* Особенности  */
