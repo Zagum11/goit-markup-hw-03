@@ -18,7 +18,7 @@
   <body>
     <!-- Шапка -->
     <header class="header">
-      <div class="container-header">
+      <div class="container contacts">
         <nav class="main-nav">
           <a class="logo" href="index.html">
             <span class="accent-logo">Web</span>Studio</a
@@ -35,38 +35,40 @@
               <a class="nav-link" href="">Контакты</a>
             </li>
           </ul>
-
-          <ul class="contacts">
-            <li class="item">
-              <a class="contact" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="item">
-              <a class="contact" href="tel:+380961111111">+38 096 111 11 11</a>
-            </li>
-          </ul>
         </nav>
+
+        <ul class="contacts">
+          <li class="item">
+            <a class="contact" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="item">
+            <a class="contact" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
       </div>
     </header>
     <!-- Main -->
     <main>
       <!-- Навигация по сайту -->
-      <section class="section work-main">
-        <h1 class="works-main-section visually-hidden">Наши работы</h1>
+      <section class="section">
         <div class="container">
+          <h1 class="works-main-section visually-hidden">Наши работы</h1>
           <ul class="works-section-list">
-            <li><button type="button" class="current-button">Все</button></li>
-            <li>
+            <li class="item-works">
+              <button type="button" class="button">Все</button>
+            </li>
+            <li class="item-works">
               <button type="button" class="second-button">Веб-сайты</button>
             </li>
-            <li>
+            <li class="item-works">
               <button type="button" class="second-button">Приложения</button>
             </li>
-            <li>
+            <li class="item-works">
               <button type="button" class="second-button">Дизайн</button>
             </li>
-            <li>
+            <li class="item-works">
               <button type="button" class="second-button">Маркетинг</button>
             </li>
           </ul>
@@ -80,8 +82,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="item description">Технокряк</h2>
-                <p class="item text">Веб-сайт</p>
+                <div class="card-description">
+                  <h2 class="item description">Технокряк</h2>
+                  <p class="item text">Веб-сайт</p>
+                </div>
               </a>
             </li>
 
@@ -93,10 +97,12 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="item description">
-                  Постер New Orlean vs Golden Star
-                </h2>
-                <p class="item text">Дизайн</p>
+                <div class="card-description">
+                  <h2 class="item description">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="item text">Дизайн</p>
+                </div>
               </a>
             </li>
 
@@ -108,8 +114,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="item description">Ресторан Seafood</h2>
-                <p class="item text">Приложение</p>
+                <div class="card-description">
+                  <h2 class="item description">Ресторан Seafood</h2>
+                  <p class="item text">Приложение</p>
+                </div>
               </a>
             </li>
 
@@ -121,8 +129,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="item description">Проект Prime</h2>
-                <p class="item text">Маркетинг</p>
+                <div class="card-description">
+                  <h2 class="item description">Проект Prime</h2>
+                  <p class="item text">Маркетинг</p>
+                </div>
               </a>
             </li>
 
@@ -134,8 +144,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="item description">Проект Boxes</h2>
-                <p class="item text">Приложение</p>
+                <div class="card-description">
+                  <h2 class="item description">Проект Boxes</h2>
+                  <p class="item text">Приложение</p>
+                </div>
               </a>
             </li>
 
@@ -147,8 +159,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="item description">Inspiration has no Borders</h2>
-                <p class="item text">Веб-сайт</p>
+                <div class="card-description">
+                  <h2 class="item description">Inspiration has no Borders</h2>
+                  <p class="item text">Веб-сайт</p>
+                </div>
               </a>
             </li>
 
@@ -160,8 +174,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="item description">Издание Limited Edition</h2>
-                <p class="item text">Дизайн</p>
+                <div class="card-description">
+                  <h2 class="item description">Издание Limited Edition</h2>
+                  <p class="item text">Дизайн</p>
+                </div>
               </a>
             </li>
 
@@ -173,8 +189,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="item description">Проект LAB</h2>
-                <p class="item text">Маркетинг</p>
+                <div class="card-description">
+                  <h2 class="item description">Проект LAB</h2>
+                  <p class="item text">Маркетинг</p>
+                </div>
               </a>
             </li>
 
@@ -186,8 +204,10 @@
                   width="370"
                   height="294"
                 />
-                <h2 class="item description">Growing Business</h2>
-                <p class="item text">Приложение</p>
+                <div class="card-description">
+                  <h2 class="item description">Growing Business</h2>
+                  <p class="item text">Приложение</p>
+                </div>
               </a>
             </li>
           </ul>
