@@ -225,11 +225,6 @@ button {
   padding-bottom: 94px;
 }
 
-.section-work {
-  padding-top: 0;
-  background-color: var(--white-color);
-}
-
 /* Особенности  */
 .list-qualities {
   display: flex;
@@ -277,8 +272,7 @@ button {
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
-  margin-top: 0;
-  margin-bottom: 50px;
+  padding-top: 0;
   text-align: center;
 }
 
